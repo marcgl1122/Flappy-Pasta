@@ -82,7 +82,7 @@ const render = () => {
       ...size, ((canvas.width / 2) - size[0] / 2), flyHeight, ...size);
     flyHeight = (canvas.height / 2) - (size[1] / 2);
     ctx.fillText(`Best score : ${bestScore}`, 85, 245);
-    ctx.fillText('Klick, für Unterhaltig', 10, 535);
+    ctx.fillText('Klick, für Unterhaltig', 15, 535);
     ctx.font = "bold 30px Courier";
   }
 
